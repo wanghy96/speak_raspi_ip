@@ -8,7 +8,7 @@ import socket
 import subprocess
 
 voice_path = os.path.join(sys.path[0], 'voice')
-player = ["omxplayer", "mpg123", "mpg321", "mplayer"]
+player = ["mplayer"]
 
 
 def getLocalIP():
@@ -59,6 +59,7 @@ def speak(ip):
             play("点")
         else:
             play(i)
+    time.sleep(0.5)
     play("完")
 
 if __name__ == '__main__':
