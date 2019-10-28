@@ -8,7 +8,7 @@ import socket
 import subprocess
 
 voice_path = os.path.join(sys.path[0], 'voice')
-player = ["mplayer"]
+player = ["mplayer"，"omxplayer","mpg123","mpg321"]
 
 
 def getLocalIP():
