@@ -24,5 +24,5 @@
 为了方便大家安装，一键脚本已经写好了，大家只要在树莓派上执行这个命令就好了：
 
 ```bash
-curl "https://raw.github.com/ma6174/speak_raspi_ip/master/setup.sh" | bash
+curl "https://github.com/wanghy96/speak_raspi_ip/blob/master/setup.sh" | bash
 ```
