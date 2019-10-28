@@ -1,0 +1,2 @@
+/usr/bin/python /var/speak_raspi_ip/speak_ip.py
+exit 0
