@@ -17,5 +17,5 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-sudo /usr/bin/python /var/speak_raspi_ip/speak_ip.py
+sudo /usr/bin/python2 /var/speak_raspi_ip/speak_ip.py
 exit 0
